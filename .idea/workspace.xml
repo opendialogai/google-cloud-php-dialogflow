@@ -1,500 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="df4c8247-2195-4345-aacf-e7c547af691e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Agent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Agent/ApiVersion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Agent/MatchMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Agent/Tier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AgentAssistantFeedback.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AgentAssistantFeedback/AnswerRelevance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AgentAssistantFeedback/DocumentCorrectness.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AgentAssistantFeedback/DocumentEfficiency.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AgentAssistantFeedback/SummarizationFeedback.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AgentAssistantFeedback_AnswerRelevance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AgentAssistantFeedback_DocumentCorrectness.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AgentAssistantFeedback_DocumentEfficiency.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AgentAssistantFeedback_SummarizationFeedback.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AgentAssistantRecord.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Agent_ApiVersion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Agent_MatchMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Agent_Tier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AgentsClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AgentsGrpcClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AnalyzeContentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AnalyzeContentResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AnnotatedMessagePart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AnswerFeedback.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AnswerFeedback/CorrectnessLevel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AnswerFeedback_CorrectnessLevel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AnswerRecord.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AnswerRecordsClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AnswerRecordsGrpcClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ArticleAnswer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AudioEncoding.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AutomatedAgentConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/AutomatedAgentReply.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/BatchCreateEntitiesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/BatchCreateMessagesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/BatchCreateMessagesResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/BatchDeleteEntitiesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/BatchDeleteEntityTypesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/BatchDeleteIntentsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/BatchUpdateEntitiesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/BatchUpdateEntityTypesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/BatchUpdateEntityTypesResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/BatchUpdateIntentsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/BatchUpdateIntentsResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/CompileSuggestionRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/CompileSuggestionResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/CompleteConversationRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Context.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ContextsClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ContextsGrpcClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Conversation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Conversation/ConversationStage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Conversation/LifecycleState.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ConversationEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ConversationEvent/Type.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ConversationEvent_Type.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ConversationPhoneNumber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ConversationProfile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ConversationProfilesClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ConversationProfilesGrpcClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Conversation_ConversationStage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Conversation_LifecycleState.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ConversationsClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ConversationsGrpcClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/CreateContextRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/CreateConversationProfileRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/CreateConversationRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/CreateDocumentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/CreateEntityTypeRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/CreateEnvironmentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/CreateIntentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/CreateKnowledgeBaseRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/CreateMessageRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/CreateParticipantRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/CreateSessionEntityTypeRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/CreateVersionRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/DeleteAgentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/DeleteAllContextsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/DeleteContextRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/DeleteConversationProfileRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/DeleteDocumentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/DeleteEntityTypeRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/DeleteEnvironmentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/DeleteIntentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/DeleteKnowledgeBaseRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/DeleteSessionEntityTypeRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/DeleteVersionRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/DetectIntentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/DetectIntentResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Document.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Document/KnowledgeType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Document/ReloadStatus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Document_KnowledgeType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Document_ReloadStatus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/DocumentsClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/DocumentsGrpcClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/DtmfParameters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/EntityType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/EntityType/AutoExpansionMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/EntityType/Entity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/EntityType/Kind.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/EntityTypeBatch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/EntityType_AutoExpansionMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/EntityType_Entity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/EntityType_Kind.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/EntityTypesClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/EntityTypesGrpcClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Environment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Environment/State.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/EnvironmentHistory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/EnvironmentHistory/Entry.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/EnvironmentHistory_Entry.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Environment_State.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/EnvironmentsClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/EnvironmentsGrpcClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/EventInput.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ExportAgentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ExportAgentResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/FaqAnswer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Fulfillment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Fulfillment/Feature.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Fulfillment/Feature/Type.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Fulfillment/GenericWebService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Fulfillment_Feature.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Fulfillment_Feature_Type.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Fulfillment_GenericWebService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/FulfillmentsClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/FulfillmentsGrpcClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Gapic/AgentsGapicClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Gapic/AnswerRecordsGapicClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Gapic/ContextsGapicClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Gapic/ConversationProfilesGapicClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Gapic/ConversationsGapicClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Gapic/DocumentsGapicClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Gapic/EntityTypesGapicClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Gapic/EnvironmentsGapicClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Gapic/FulfillmentsGapicClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Gapic/IntentsGapicClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Gapic/KnowledgeBasesGapicClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Gapic/ParticipantsGapicClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Gapic/SessionEntityTypesGapicClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Gapic/SessionsGapicClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Gapic/VersionsGapicClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GcsSource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GcsSources.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GetAgentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GetAnswerRecordRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GetContextRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GetConversationProfileRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GetConversationRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GetDocumentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GetEntityTypeRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GetEnvironmentHistoryRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GetEnvironmentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GetFulfillmentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GetIntentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GetKnowledgeBaseRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GetParticipantRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GetSessionEntityTypeRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GetValidationResultRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/GetVersionRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig/ConversationModelConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig/MessageAnalysisConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig/SuggestionConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig/SuggestionFeatureConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig/SuggestionQueryConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig/SuggestionQueryConfig/ContextFilterSettings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig/SuggestionQueryConfig/DialogflowQuerySource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig/SuggestionQueryConfig/DocumentQuerySource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig/SuggestionQueryConfig/KnowledgeBaseQuerySource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig/SuggestionTriggerSettings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig_ConversationModelConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig_MessageAnalysisConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig_SuggestionConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig_SuggestionFeatureConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig_SuggestionQueryConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig_SuggestionQueryConfig_ContextFilterSettings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig_SuggestionQueryConfig_DialogflowQuerySource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig_SuggestionQueryConfig_DocumentQuerySource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig_SuggestionQueryConfig_KnowledgeBaseQuerySource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantConfig_SuggestionTriggerSettings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentAssistantEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentHandoffConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentHandoffConfig/LivePersonConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentHandoffConfig/SalesforceLiveAgentConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentHandoffConfig_LivePersonConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/HumanAgentHandoffConfig_SalesforceLiveAgentConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ImportAgentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ImportDocumentTemplate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ImportDocumentsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ImportDocumentsResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/InputAudioConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/FollowupIntentInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/BasicCard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/BasicCard/Button.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/BasicCard/Button/OpenUriAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/BrowseCarouselCard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/BrowseCarouselCard/BrowseCarouselCardItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/BrowseCarouselCard/BrowseCarouselCardItem/OpenUrlAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/BrowseCarouselCard/BrowseCarouselCardItem/OpenUrlAction/UrlTypeHint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/BrowseCarouselCard/ImageDisplayOptions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/Card.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/Card/Button.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/CarouselSelect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/CarouselSelect/Item.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/ColumnProperties.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/ColumnProperties/HorizontalAlignment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/Image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/LinkOutSuggestion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/ListSelect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/ListSelect/Item.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/MediaContent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/MediaContent/ResponseMediaObject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/MediaContent/ResponseMediaType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/Platform.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/QuickReplies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/RbmCardContent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/RbmCardContent/RbmMedia.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/RbmCardContent/RbmMedia/Height.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/RbmCarouselCard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/RbmCarouselCard/CardWidth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/RbmStandaloneCard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/RbmStandaloneCard/CardOrientation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/RbmStandaloneCard/ThumbnailImageAlignment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/RbmSuggestedAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/RbmSuggestedAction/RbmSuggestedActionDial.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/RbmSuggestedAction/RbmSuggestedActionOpenUri.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/RbmSuggestedAction/RbmSuggestedActionShareLocation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/RbmSuggestedReply.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/RbmSuggestion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/RbmText.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/SelectItemInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/SimpleResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/SimpleResponses.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/Suggestion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/Suggestions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/TableCard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/TableCardCell.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/TableCardRow.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/TelephonyPlayAudio.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/TelephonySynthesizeSpeech.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/TelephonyTransferCall.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Message/Text.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/Parameter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/TrainingPhrase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/TrainingPhrase/Part.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/TrainingPhrase/Type.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent/WebhookState.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/IntentBatch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/IntentView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_FollowupIntentInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_BasicCard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_BasicCard_Button.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_BasicCard_Button_OpenUriAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_BrowseCarouselCard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_BrowseCarouselCard_BrowseCarouselCardItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_BrowseCarouselCard_BrowseCarouselCardItem_OpenUrlAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_BrowseCarouselCard_BrowseCarouselCardItem_OpenUrlAction_UrlTypeHint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_BrowseCarouselCard_ImageDisplayOptions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_Card.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_Card_Button.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_CarouselSelect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_CarouselSelect_Item.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_ColumnProperties.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_ColumnProperties_HorizontalAlignment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_Image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_LinkOutSuggestion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_ListSelect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_ListSelect_Item.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_MediaContent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_MediaContent_ResponseMediaObject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_MediaContent_ResponseMediaType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_Platform.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_QuickReplies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_RbmCardContent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_RbmCardContent_RbmMedia.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_RbmCardContent_RbmMedia_Height.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_RbmCarouselCard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_RbmCarouselCard_CardWidth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_RbmStandaloneCard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_RbmStandaloneCard_CardOrientation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_RbmStandaloneCard_ThumbnailImageAlignment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_RbmSuggestedAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_RbmSuggestedAction_RbmSuggestedActionDial.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_RbmSuggestedAction_RbmSuggestedActionOpenUri.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_RbmSuggestedAction_RbmSuggestedActionShareLocation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_RbmSuggestedReply.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_RbmSuggestion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_RbmText.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_SelectItemInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_SimpleResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_SimpleResponses.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_Suggestion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_Suggestions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_TableCard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_TableCardCell.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_TableCardRow.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_TelephonyPlayAudio.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_TelephonySynthesizeSpeech.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_TelephonyTransferCall.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Message_Text.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_Parameter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_TrainingPhrase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_TrainingPhrase_Part.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_TrainingPhrase_Type.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Intent_WebhookState.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/IntentsClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/IntentsGrpcClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/KnowledgeAnswers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/KnowledgeAnswers/Answer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/KnowledgeAnswers/Answer/MatchConfidenceLevel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/KnowledgeAnswers_Answer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/KnowledgeAnswers_Answer_MatchConfidenceLevel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/KnowledgeBase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/KnowledgeBasesClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/KnowledgeBasesGrpcClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/KnowledgeOperationMetadata.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/KnowledgeOperationMetadata/State.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/KnowledgeOperationMetadata_State.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListAnswerRecordsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListAnswerRecordsResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListContextsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListContextsResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListConversationProfilesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListConversationProfilesResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListConversationsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListConversationsResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListDocumentsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListDocumentsResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListEntityTypesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListEntityTypesResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListEnvironmentsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListEnvironmentsResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListIntentsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListIntentsResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListKnowledgeBasesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListKnowledgeBasesResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListMessagesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListMessagesResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListParticipantsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListParticipantsResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListSessionEntityTypesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListSessionEntityTypesResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListSuggestionsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListSuggestionsResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListVersionsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ListVersionsResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/LoggingConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Message.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/MessageAnnotation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/NotificationConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/NotificationConfig/MessageFormat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/NotificationConfig_MessageFormat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/OriginalDetectIntentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/OutputAudio.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/OutputAudioConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/OutputAudioEncoding.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Participant.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Participant/Role.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Participant_Role.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ParticipantsClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ParticipantsGrpcClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/QueryInput.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/QueryParameters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/QueryResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ReloadDocumentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ResponseMessage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ResponseMessage/EndInteraction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ResponseMessage/LiveAgentHandoff.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ResponseMessage/Text.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ResponseMessage_EndInteraction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ResponseMessage_LiveAgentHandoff.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ResponseMessage_Text.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/RestoreAgentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SearchAgentsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SearchAgentsResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Sentiment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SentimentAnalysisRequestConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SentimentAnalysisResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SessionEntityType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SessionEntityType/EntityOverrideMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SessionEntityType_EntityOverrideMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SessionEntityTypesClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SessionEntityTypesGrpcClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SessionsClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SessionsGrpcClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SetAgentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SmartReplyAnswer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SpeechContext.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SpeechModelVariant.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SpeechToTextConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SpeechWordInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SsmlVoiceGender.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/StreamingDetectIntentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/StreamingDetectIntentResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/StreamingRecognitionResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/StreamingRecognitionResult/MessageType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/StreamingRecognitionResult_MessageType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SubAgent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SuggestArticlesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SuggestArticlesResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SuggestFaqAnswersRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SuggestFaqAnswersResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SuggestSmartRepliesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SuggestSmartRepliesResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Suggestion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Suggestion/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Suggestion/FaqAnswer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SuggestionFeature.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SuggestionFeature/Type.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SuggestionFeature_Type.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SuggestionResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Suggestion_Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Suggestion_FaqAnswer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/SynthesizeSpeechConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/TelephonyDtmf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/TelephonyDtmfEvents.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/TextInput.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/TextToSpeechSettings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/TrainAgentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/UpdateAnswerRecordRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/UpdateContextRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/UpdateConversationProfileRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/UpdateDocumentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/UpdateEntityTypeRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/UpdateEnvironmentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/UpdateFulfillmentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/UpdateIntentRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/UpdateKnowledgeBaseRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/UpdateParticipantRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/UpdateSessionEntityTypeRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/UpdateVersionRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ValidationError.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ValidationError/Severity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ValidationError_Severity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/ValidationResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Version.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Version/VersionStatus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/Version_VersionStatus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/VersionsClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/VersionsGrpcClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/VoiceSelectionParams.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/WebhookRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/WebhookResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/gapic_metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/agents_client_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/agents_descriptor_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/agents_rest_client_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/answer_records_client_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/answer_records_descriptor_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/answer_records_rest_client_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/contexts_client_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/contexts_descriptor_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/contexts_rest_client_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/conversation_profiles_client_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/conversation_profiles_descriptor_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/conversation_profiles_rest_client_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/conversations_client_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/conversations_descriptor_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/conversations_rest_client_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/documents_client_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/documents_descriptor_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/documents_rest_client_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/entity_types_client_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/entity_types_descriptor_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/entity_types_rest_client_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/environments_client_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/environments_descriptor_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/environments_rest_client_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/fulfillments_client_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/fulfillments_descriptor_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/fulfillments_rest_client_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/intents_client_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/intents_descriptor_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/intents_rest_client_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/knowledge_bases_client_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/knowledge_bases_descriptor_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/knowledge_bases_rest_client_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/participants_client_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/participants_descriptor_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/participants_rest_client_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/session_entity_types_client_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/session_entity_types_descriptor_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/session_entity_types_rest_client_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/sessions_client_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/sessions_descriptor_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/sessions_rest_client_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/versions_client_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/versions_descriptor_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V2beta1/resources/versions_rest_client_config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/Agent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/AnswerRecord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/AudioConfig.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/Context.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/Conversation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/ConversationEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/ConversationProfile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/Document.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/EntityType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/Environment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/Fulfillment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/Gcs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/HumanAgentAssistantEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/Intent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/KnowledgeBase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/Participant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/SessionEntityType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/ValidationResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/Version.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata/V2Beta1/Webhook.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -516,8 +64,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/metadata" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/metadata" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -527,11 +81,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621866454870</updated>
-      <workItem from="1621866455944" duration="741000" />
+      <workItem from="1621866455944" duration="1585000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="561" y="256" key="search.everywhere.popup" timestamp="1621871316457">
+      <screen x="0" y="25" width="1792" height="1040" />
+    </state>
+    <state x="561" y="256" key="search.everywhere.popup/0.25.1792.1040@0.25.1792.1040" timestamp="1621871316457" />
   </component>
 </project>
